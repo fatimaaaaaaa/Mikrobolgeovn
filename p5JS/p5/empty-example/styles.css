@@ -1,0 +1,22 @@
+img{
+    width: 90%;
+    z-index: -1;
+}
+.knob{
+    position:absolute;
+    text-align: right;
+    background-color: white;
+}
+#myCanvas{
+    position: absolute;
+    z-index: 1;
+    top:4em;
+    left:73%;
+}
+myCanvas2{
+    position: absolute;
+    z-index: 1;
+    top:4em;
+    left:73%;
+}
+
