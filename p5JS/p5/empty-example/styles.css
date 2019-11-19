@@ -1,5 +1,5 @@
 img{
-    width: 90%;
+    width: 100%;
     z-index: -1;
 }
 .knob{
@@ -10,8 +10,8 @@ img{
 #myCanvas{
     position: absolute;
     z-index: 1;
-    top:4em;
-    left:73%;
+    top:1.5em;
+    left:75%;
 }
 myCanvas2{
     position: absolute;
@@ -19,4 +19,16 @@ myCanvas2{
     top:4em;
     left:73%;
 }
+.bildebilde{
+    position:absolute;
+    top: 4.5em;
+    left: 6em;
+    width: 66%;
+    height:100%;
+}
+svg{
+    width: 100%;
+    height:100%;
+}
+
 
