@@ -153,21 +153,21 @@ textAlign(CENTER);
       document.getElementById('rect').style.color='blue';     
       document.getElementById('rect').style.fill='blue';     
     }
-    if(output>260 && output<275 && output2<275 && output2>267  ){
+    else if(output>260 && output<275 && output2<275 && output2>267  ){
         // halv power i 15 min
       document.getElementById('rect').style.color='yellow';     
       document.getElementById('rect').style.fill='yellow';     
     }
-    if(output>315 && output<330 && output2<352 && output2>345  ){
+    else if(output>315 && output<330 && output2<352 && output2>345  ){
         // 200W + 2min
       document.getElementById('rect').style.color='green';     
       document.getElementById('rect').style.fill='green';     
     }
-    if(output>315 && output<330 && output2<352 && output2>345  ){
+   /* if(output>315 && output<330 && output2<352 && output2>345  ){
         // Varme i 2 min, og deretter i 3 min.
       document.getElementById('rect').style.color='pink';     
       document.getElementById('rect').style.fill='pink';     
-    }
+    }*/
     else{
       document.getElementById('rect').style.color='white';     
       document.getElementById('rect').style.fill='white';   
